@@ -1,0 +1,31 @@
+.nav{
+    position: fixed;
+    top: 12%;
+    left: 0%;
+    right: 0%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+
+.link{
+    position: relative;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3% 0% 3% 0%;
+    margin: 0%;
+    width: 100%;
+    background-color: black;
+}
+
+.link:hover{
+    color: red;
+    border-bottom: red 4px solid;
+}
