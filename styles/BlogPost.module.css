@@ -1,0 +1,19 @@
+.blog{
+    position: relative;
+    margin: 12% 15% 5% 15%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1{
+    margin-bottom: 5%;
+}
+
+.body{
+    margin: 2% 5% 5% 5%;
+}
+
+.id{
+    font-size: 0.9em;
+    color: gray;
+}
