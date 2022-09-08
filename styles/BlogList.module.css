@@ -1,0 +1,6 @@
+.blog{
+    position: relative;
+    margin: 11% 15% 4% 15%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}

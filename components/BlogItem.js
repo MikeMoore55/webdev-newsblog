@@ -1,8 +1,10 @@
 import React from 'react'
+import blogItemStyles from '../styles/BlogItem.module.css'
+
 
 function BlogItem({blogPost}) {
   return (
-    <div>
+    <div className={blogItemStyles.blogtitle}>
         <h3>{blogPost.title}</h3>
     </div>
   )

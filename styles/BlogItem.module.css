@@ -1,0 +1,17 @@
+.blogtitle{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 10px;
+    margin: 3% 5% 1% 5%;
+}
+
+.blogtitle:hover{
+    color: red;
+    text-decoration: underline;
+    border: solid rgb(255, 0, 0) 2px;
+    box-shadow: 5px 5px 7px 2px rgb(63, 63, 63);
+}

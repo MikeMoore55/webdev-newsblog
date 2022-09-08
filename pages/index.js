@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import BlogList from '../components/BlogList'
-import styles from '../styles/Layout.module.css'
+import styles from '../styles/Home.module.css'
 
 
 export default function Home({blogPosts}) {
   return (
-    <main>
+    <main className={styles.home}>
       <Head>
         <title>WebDevBlog</title>
       </Head>
@@ -15,7 +15,7 @@ export default function Home({blogPosts}) {
 }
 
 export const getStaticProps = async() =>{
-  const res = await fetch(`https://jsonplaceholder.typicode.com/posts?_limit=10`)
+  const res = await fetch(`https://jsonplaceholder.typicode.com/posts?_limit=20`)
 
   const blogPosts = await res.json()
 
