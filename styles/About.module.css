@@ -1,0 +1,16 @@
+.about{
+    position: relative;
+    margin: 12% 15% 5% 15%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1{
+    text-decoration: underline;
+    color: red;
+}
+
+.dis{
+    color: red;
+    text-transform: capitalize;
+}
